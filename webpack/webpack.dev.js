@@ -19,7 +19,7 @@ const config = {
     ignored: /node_modules/,
   },
   devServer: {
-    open: 'chrome',
+    open: true,
     contentBase: DIST_PATH,
     compress: true, //是否启用gzip压缩
     publicPath: '/',
