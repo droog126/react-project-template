@@ -5,9 +5,9 @@
     "main": "src/index.tsx",
     "repository": {
         "type": "git",
-        "url": "https://github.com.cnpmjs.org/qyjandroid/react-project-template.git"
+        "url": "https://github.com.cnpmjs.org/droog126/react-project-template.git"
     },
-    "author": "quanyj <qyjandroid@163.com>",
+    "author": "宁涛 <981855012@163.com>",
     "license": "MIT",
     "scripts": {
         "start": "cross-env NODE_ENV=dev webpack serve --config webpack/webpack.dev.js",
@@ -19,7 +19,7 @@
         "prepare": "husky install"
     },
     "bugs": {
-        "url": "https://github.com/qyjandroid/react-project-template/issues"
+        "url": "https://github.com/droog126/react-project-template/issues"
     },
     "dependencies": {
         "@babel/runtime-corejs3": "^7.15.4",
