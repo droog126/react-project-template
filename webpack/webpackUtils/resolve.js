@@ -9,6 +9,6 @@ module.exports = {
   mainFields: ['main'],
   alias: {
     '@': SRC_PATH,
-    '@images': path.resolve(SRC_PATH, 'assets/images'),
+    '@utils': path.resolve(SRC_PATH, 'utils'),
   },
 };

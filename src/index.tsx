@@ -5,8 +5,10 @@ import App from '@/App';
 import './index.scss';
 import '@/assets/css/index.scss';
 import Modal from 'react-modal';
-try {
+import request from '@utils/request';
+console.log(request.give);
 
+try {
   const rootElement = document.getElementById('root');
 
   Modal.setAppElement(rootElement);
